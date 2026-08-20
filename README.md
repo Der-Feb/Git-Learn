@@ -74,3 +74,7 @@ For changing the default branch when we initialize git in a project - git config
 24 directories, 35 files
 
 Committing is taking a snapshot of your current work - you must commit regularly.
+
+# Get a good graphed history
+
+git log --graph --decorate --all --format="%C(yellow)%h%Creset %C(green)(%cr)%Creset %C(cyan)%an%Creset%C(auto)%d%Creset %s" -n 10
